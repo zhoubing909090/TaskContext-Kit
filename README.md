@@ -1,6 +1,10 @@
 # TaskContext-Kit (TCK)
 
+> LLM Context Management System — Memory-Feeding Separation for AI Conversations
+
 > 大模型上下文管理系统 —— 记忆与投喂分离，让每一次对话都精准高效
+
+**Keywords:** `LLM` `Context Management` `Context Window` `Context Drift` `Context Pollution` `Token Optimization` `Multi-turn Dialogue` `Prompt Engineering` `Memory Management` `ChatGPT` `Claude` `AI Conversation`
 
 ---
 
@@ -16,15 +20,15 @@
 
 TaskContext-Kit（简称 TCK）是一个面向开发者的大模型上下文管理系统。
 
-它解决一个核心问题：**大模型在长对话中越聊越"笨"**。
+它解决一个核心问题：**大模型在长对话中越聊越"笨"**（Context Drift / Context Pollution / Token Waste）。
 
 你是否遇到过以下场景：
 
-- 聊到第 20 轮，模型已经忘了你最开始的需求
-- 对话里混入了无关信息，模型被带偏越走越远
-- 敏感信息混入上下文，存在泄露风险
-- 被迫新建对话，之前所有背景丢失，重新描述需求
-- 冗余消息堆积，Token 成本翻倍
+- 聊到第 20 轮，模型已经忘了你最开始的需求（Context Drift）
+- 对话里混入了无关信息，模型被带偏越走越远（Context Pollution）
+- 敏感信息混入上下文，存在泄露风险（Data Security Risk）
+- 被迫新建对话，之前所有背景丢失，重新描述需求（Context Loss）
+- 冗余消息堆积导致 Token 成本翻倍（Token Waste）
 
 TCK 通过"记忆与投喂分离"的架构，从工程层面系统性地解决了这些问题。
 
