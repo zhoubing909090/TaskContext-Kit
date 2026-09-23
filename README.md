@@ -4,7 +4,7 @@
 
 > 大模型上下文管理系统 —— 记忆与投喂分离，让每一次对话都精准高效
 
-**Keywords:** `LLM` `Context Management` `Context Window` `Context Drift` `Context Pollution` `Token Optimization` `Multi-turn Dialogue` `Prompt Engineering` `Memory Management` `ChatGPT` `Claude` `AI Conversation`
+**Keywords:** `LLM` `Context Management` `Context Window` `Context Drift` `上下文漂移` `Context Pollution` `上下文污染` `Token Optimization` `Multi-turn Dialogue` `Prompt Engineering` `Memory Management` `ChatGPT` `Claude` `AI Conversation` `上下文管理` `大模型` `长对话`
 
 ---
 
